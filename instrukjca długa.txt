@@ -1,0 +1,125 @@
+nstrukcja Użytkownika Aplikacji Generator Danych Testowych
+Wprowadzenie
+Aplikacja Generator Danych Testowych służy do generowania różnego rodzaju danych, które mogą być wykorzystane w celach testowych. Umożliwia ona generowanie losowych imion, nazwisk, dat, numerów PESEL, numerów dowodów, kodów SWIFT, numerów NIP, numerów REGON, nazw firm, nazw ulic, nazw miast, kodów pocztowych, komentarzy oraz specjalnych komentarzy. Ponadto, aplikacja umożliwia pobieranie różnych typów plików testowych.
+
+Podstawowe Funkcje Aplikacji
+Przycisk "Odśwież"
+W każdym module znajduje się przycisk "Odśwież", który służy do wygenerowania nowych danych zgodnie z ustawieniami w danym module. Wystarczy kliknąć ten przycisk, aby zobaczyć nowe losowe dane.
+
+Przycisk "Kopiuj"
+Przycisk "Kopiuj" umożliwia skopiowanie wygenerowanych danych do schowka. Po kliknięciu tego przycisku dane są gotowe do wklejenia w inne miejsce, np. w dokument tekstowy lub arkusz kalkulacyjny.
+
+Przycisk "Ustawienia"
+Niektóre moduły mają przycisk "Ustawienia", który umożliwia dostosowanie sposobu generowania danych. W sekcji "Ustawienia" można wybrać różne opcje, takie jak typ danych do wygenerowania lub liczba generowanych wyników.
+
+Checkbox "Tło"
+Checkbox "Tło" zmienia kolor tła aplikacji. Zaznaczenie tego pola włącza ciemny motyw (ciemne tło), a jego odznaczenie przywraca jasne tło.
+
+Checkbox "Logi"
+Checkbox "Logi" pokazuje lub ukrywa sekcję logów. Zaznaczenie tego pola powoduje wyświetlenie logów (informacji o działaniach aplikacji), a jego odznaczenie ukrywa tę sekcję.
+
+Moduły Aplikacji
+Moduł "Imię"
+Generowanie Imion
+Generowanie losowych imion: Kliknij przycisk "Odśwież", aby wygenerować losowe imiona.
+Generowanie damskich imion: Kliknij przycisk "Ustawienia", wybierz opcję "Damskie", a następnie kliknij przycisk "Odśwież", aby wygenerować losowe damskie imiona.
+Generowanie męskich imion: Kliknij przycisk "Ustawienia", wybierz opcję "Męskie", a następnie kliknij przycisk "Odśwież", aby wygenerować losowe męskie imiona.
+Kopiowanie imion: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane imiona do schowka.
+Moduł "Nazwisko"
+Generowanie Nazwisk
+Generowanie losowych nazwisk: Kliknij przycisk "Odśwież", aby wygenerować losowe nazwiska.
+Generowanie damskich nazwisk: Kliknij przycisk "Ustawienia", wybierz opcję "Damskie", a następnie kliknij przycisk "Odśwież", aby wygenerować losowe damskie nazwiska.
+Generowanie męskich nazwisk: Kliknij przycisk "Ustawienia", wybierz opcję "Męskie", a następnie kliknij przycisk "Odśwież", aby wygenerować losowe męskie nazwiska.
+Kopiowanie nazwisk: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane nazwiska do schowka.
+Moduł "Data"
+Generowanie Dat
+Generowanie losowych dat: Kliknij przycisk "Odśwież", aby wygenerować losowe daty.
+Generowanie dat w formacie RRRR-MM-DD: Kliknij przycisk "Ustawienia", wybierz opcję "RRRR-MM-DD", a następnie kliknij przycisk "Odśwież", aby wygenerować daty w formacie RRRR-MM-DD.
+Kopiowanie dat: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane daty do schowka.
+Moduł "PESEL"
+Generowanie Numerów PESEL
+Generowanie losowych numerów PESEL: Kliknij przycisk "Odśwież", aby wygenerować losowe numery PESEL.
+Generowanie numerów PESEL męskich: Kliknij przycisk "Ustawienia", wybierz opcję "Męskie", a następnie kliknij przycisk "Odśwież", aby wygenerować losowe numery PESEL męskie.
+Generowanie numerów PESEL damskich: Kliknij przycisk "Ustawienia", wybierz opcję "Damskie", a następnie kliknij przycisk "Odśwież", aby wygenerować losowe numery PESEL damskie.
+Kopiowanie numerów PESEL: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane numery PESEL do schowka.
+Walidacja Pola "Rok"
+Wprowadzanie prawidłowego roku: Wprowadź wartość "1990" w polu "Rok", kliknij przycisk "Odśwież". Wartość zostaje zaakceptowana, dane PESEL generowane są prawidłowo.
+Wprowadzanie nieprawidłowego roku: Wprowadź wartość "2300" w polu "Rok", kliknij przycisk "Odśwież". Pojawia się komunikat walidacyjny informujący o błędnej wartości.
+Moduł "Numer Dowodu"
+Generowanie Numerów Dowodów
+Generowanie losowych numerów dowodów: Kliknij przycisk "Odśwież", aby wygenerować losowe numery dowodów.
+Kopiowanie numerów dowodów: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane numery dowodów do schowka.
+Moduł "SWIFT"
+Generowanie Numerów SWIFT
+Generowanie losowych numerów SWIFT: Kliknij przycisk "Odśwież", aby wygenerować losowe numery SWIFT.
+Kopiowanie numerów SWIFT: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane numery SWIFT do schowka.
+Moduł "NIP"
+Generowanie Numerów NIP
+Generowanie losowych numerów NIP: Kliknij przycisk "Odśwież", aby wygenerować losowe numery NIP.
+Kopiowanie numerów NIP: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane numery NIP do schowka.
+Moduł "REGON"
+Generowanie Numerów REGON
+Generowanie losowych numerów REGON: Kliknij przycisk "Odśwież", aby wygenerować losowe numery REGON.
+Generowanie numerów REGON 14-znakowego: Kliknij przycisk "Ustawienia", wybierz opcję "14-znakowy", kliknij przycisk "Odśwież", aby wygenerować numery REGON 14-znakowe.
+Kopiowanie numerów REGON: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane numery REGON do schowka.
+Moduł "Księga Wieczysta"
+Generowanie Numerów Ksiąg Wieczystych
+Generowanie losowych numerów ksiąg wieczystych: Kliknij przycisk "Odśwież", aby wygenerować losowe numery ksiąg wieczystych.
+Kopiowanie numerów ksiąg wieczystych: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane numery ksiąg wieczystych do schowka.
+Moduł "IBAN"
+Generowanie Numerów IBAN
+Generowanie losowych numerów IBAN: Kliknij przycisk "Odśwież", aby wygenerować losowe numery IBAN.
+Kopiowanie numerów IBAN: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane numery IBAN do schowka.
+Moduł "Nazwa Firmy"
+Generowanie Nazw Firm
+Generowanie losowych nazw firm: Kliknij przycisk "Odśwież", aby wygenerować losowe nazwy firm.
+Generowanie zabawnych nazw firm: Kliknij przycisk "Ustawienia", zaznacz checkbox "Zabawne nazwy", kliknij przycisk "Odśwież", aby wygenerować zabawne nazwy firm.
+Kopiowanie nazw firm: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane nazwy firm do schowka.
+Moduł "Ulica"
+Generowanie Nazw Ulic
+Generowanie losowych nazw ulic: Kliknij przycisk "Odśwież", aby wygenerować losowe nazwy ulic.
+Generowanie zabawnych nazw ulic: Kliknij przycisk "Ustawienia", zaznacz checkbox "Zabawne nazwy", kliknij przycisk "Odśwież", aby wygenerować zabawne nazwy ulic.
+Kopiowanie nazw ulic: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane nazwy ulic do schowka.
+Moduł "Miasto"
+Generowanie Nazw Miast
+Generowanie losowych nazw miast: Kliknij przycisk "Odśwież", aby wygenerować losowe nazwy miast.
+Kopiowanie nazw miast: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane nazwy miast do schowka.
+Moduł "Kod Pocztowy"
+Generowanie Kodów Pocztowych
+Generowanie losowych kodów pocztowych: Kliknij przycisk "Odśwież", aby wygenerować losowe kody pocztowe.
+Kopiowanie kodów pocztowych: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane kody pocztowe do schowka.
+Moduł "Komentarz"
+Generowanie Komentarzy
+Generowanie losowych komentarzy: Kliknij przycisk "Odśwież", aby wygenerować losowe komentarze.
+Generowanie komentarzy z określoną liczbą słów: Kliknij przycisk "Ustawienia", wprowadź wartość w polu "Liczba słów", kliknij przycisk "Odśwież", aby wygenerować komentarze z określoną liczbą słów.
+Generowanie komentarzy z określoną liczbą znaków: Kliknij przycisk "Ustawienia", wprowadź wartość w polu "Liczba znaków", kliknij przycisk "Odśwież", aby wygenerować komentarze z określoną liczbą znaków.
+Generowanie komentarzy z określoną liczbą słów i znaków: Kliknij przycisk "Ustawienia", wprowadź wartości w polach "Liczba słów" i "Liczba znaków", kliknij przycisk "Odśwież", aby wygenerować komentarze z określoną liczbą słów i znaków.
+Kopiowanie komentarzy: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane komentarze do schowka.
+Walidacja Pola "Liczba słów"
+Wprowadzanie prawidłowej liczby słów: Wprowadź wartość "10" w polu "Liczba słów", kliknij przycisk "Odśwież". Wartość zostaje zaakceptowana, komentarz generowany jest prawidłowo.
+Wprowadzanie nieprawidłowej liczby słów: Wprowadź wartość "-5" w polu "Liczba słów", kliknij przycisk "Odśwież". Pojawia się komunikat walidacyjny informujący o błędnej wartości.
+Walidacja Pola "Liczba znaków"
+Wprowadzanie prawidłowej liczby znaków: Wprowadź wartość "50" w polu "Liczba znaków", kliknij przycisk "Odśwież". Wartość zostaje zaakceptowana, komentarz generowany jest prawidłowo.
+Wprowadzanie nieprawidłowej liczby znaków: Wprowadź wartość "10000" w polu "Liczba znaków", kliknij przycisk "Odśwież". Pojawia się komunikat walidacyjny informujący o błędnej wartości.
+Moduł "Komentarz Specjalny"
+Generowanie Specjalnych Komentarzy
+Generowanie losowych specjalnych komentarzy: Kliknij przycisk "Odśwież", aby wygenerować losowe specjalne komentarze.
+Generowanie komentarzy z SQL Injection: Kliknij przycisk "Ustawienia", wybierz opcję "SQL Injection", kliknij przycisk "Odśwież", aby wygenerować komentarze zawierające przykłady SQL Injection.
+Generowanie komentarzy z diakrytykami: Kliknij przycisk "Ustawienia", wybierz opcję "Znaki specjalne", kliknij przycisk "Odśwież", aby wygenerować komentarze zawierające znaki specjalne.
+Kopiowanie specjalnych komentarzy: Kliknij przycisk "Kopiuj", aby skopiować wygenerowane specjalne komentarze do schowka.
+Moduł "Załączniki Testowe"
+Pobieranie Plików Testowych
+Pobieranie pliku Excel: Kliknij przycisk "Plik Excel" w module "Załączniki Testowe", aby pobrać plik Excel.
+Pobieranie pliku PDF: Kliknij przycisk "Plik PDF" w module "Załączniki Testowe", aby pobrać plik PDF.
+Pobieranie pliku Word: Kliknij przycisk "Plik Word" w module "Załączniki Testowe", aby pobrać plik Word.
+Pobieranie pliku TXT: Kliknij przycisk "Plik TXT" w module "Załączniki Testowe", aby pobrać plik TXT.
+Pobieranie pliku JPG: Kliknij przycisk "Plik JPG" w module "Załączniki Testowe", aby pobrać plik JPG.
+Pobieranie pliku PNG: Kliknij przycisk "Plik PNG" w module "Załączniki Testowe", aby pobrać plik PNG.
+Podsumowanie
+Aplikacja Generator Danych Testowych jest łatwa w użyciu i umożliwia szybkie generowanie różnorodnych danych testowych. Dzięki niej możesz wygenerować dane potrzebne do testów, skopiować je do schowka lub pobrać pliki testowe w różnych formatach.
+
+
+
+
+
+

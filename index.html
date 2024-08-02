@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator danych testowych</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="header">
+        <h1>Generator danych testowych</h1>
+        <div id="theme-toggle" class="theme-toggle">
+            <label for="theme-switch">Tło</label>
+            <input type="checkbox" id="theme-switch">
+        </div>
+    </div>
+    <div id="modules"></div>
+    <div class="instructions">
+        <p>Jak korzystać z generatora:
+            <br>
+            Użyj przycisku "Kopiuj" lub kliknij bezpośrednio na wygenerowane dane, aby skopiować.
+            <br>
+            Kliknij w przycisk "Odśwież", aby wygenerować ponownie.
+            <br>
+            Generowanie wielu danych za jednym razem oraz opcje dodatkowe dostępne są pod przyciskiem "Ustawienia".
+        </p>
+    </div>
+    <div>
+        <label for="show-logs">Logi</label>
+        <input type="checkbox" id="show-logs">
+    </div>
+    <div id="log-container" class="log-container" style="display: none;">
+        <h2>Logi debugowania</h2>
+        <textarea id="log-output" readonly></textarea>
+        <!-- Ester egg -->
+        <button id="bonus-button" style="display: none;">Bonus</button>
+        <!-- Ester egg -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

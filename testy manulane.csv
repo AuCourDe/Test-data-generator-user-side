@@ -1,0 +1,92 @@
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+Inne - Zmiana motywu na ciemny,Aplikacja otwarta w przeglądarce,"Kliknij checkbox ""Tło""","Zmiana motywu na ciemny; ciało strony ma klasę ""dark-mode"""
+Inne - Zmiana motywu na jasny,Motyw ustawiony na ciemny,"Kliknij checkbox ""Tło""","Zmiana motywu na jasny; ciało strony nie ma klasy ""dark-mode"""
+Inne - Pokazanie logów,Aplikacja otwarta w przeglądarce,"Kliknij checkbox ""Logi""",Sekcja logów staje się widoczna
+Inne - Ukrycie logów,Sekcja logów jest widoczna,"Kliknij checkbox ""Logi""",Sekcja logów jest ukryta
+"Scenariusze dla modułu ""Imię""",Sekcja logów jest widoczna,"Kliknij checkbox ""Logi""",Sekcja logów jest ukryta
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+Imię - Generowanie losowych imion,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Imię""","W module ""Imię"" pojawiają się losowe imiona"
+Imię - Kopiowanie losowych imion,"Losowe imiona wygenerowane w module ""Imię""","Kliknij przycisk ""Kopiuj"" w module ""Imię""",Imiona skopiowane do schowka
+Imię - Generowanie damskich imion,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Imię"", wybierz opcję ""Damskie"", kliknij przycisk ""Odśwież""","W module ""Imię"" pojawiają się losowe damskie imiona"
+Imię - Generowanie męskich imion,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Imię"", wybierz opcję ""Męskie"", kliknij przycisk ""Odśwież""","W module ""Imię"" pojawiają się losowe męskie imiona"
+"Scenariusze dla modułu ""Nazwisko""",Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Imię"", wybierz opcję ""Męskie"", kliknij przycisk ""Odśwież""","W module ""Imię"" pojawiają się losowe męskie imiona"
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+Nazwisko - Generowanie losowych nazwisk,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Nazwisko""","W module ""Nazwisko"" pojawiają się losowe nazwiska"
+Nazwisko - Generowanie damskich nazwisk,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Nazwisko"", wybierz opcję ""Damskie"", kliknij przycisk ""Odśwież""","W module ""Nazwisko"" pojawiają się losowe damskie nazwiska"
+Nazwisko - Generowanie męskich nazwisk,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Nazwisko"", wybierz opcję ""Męskie"", kliknij przycisk ""Odśwież""","W module ""Nazwisko"" pojawiają się losowe męskie nazwiska"
+"Scenariusze dla modułu ""Data""",Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Nazwisko"", wybierz opcję ""Męskie"", kliknij przycisk ""Odśwież""","W module ""Nazwisko"" pojawiają się losowe męskie nazwiska"
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+Data - Generowanie losowych dat,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Data""","W module ""Data"" pojawiają się losowe daty"
+Data - Generowanie dat w formacie RRRR-MM-DD,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Data"", wybierz opcję ""RRRR-MM-DD"", kliknij przycisk ""Odśwież""","W module ""Data"" pojawiają się losowe daty w formacie RRRR-MM-DD"
+"Scenariusze dla modułu ""PESEL""",Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Data"", wybierz opcję ""RRRR-MM-DD"", kliknij przycisk ""Odśwież""","W module ""Data"" pojawiają się losowe daty w formacie RRRR-MM-DD"
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+PESEL - Generowanie losowych PESEL,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""PESEL""","W module ""PESEL"" pojawiają się losowe numery PESEL"
+PESEL - Generowanie PESEL męskiego,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""PESEL"", wybierz opcję ""Męskie"", kliknij przycisk ""Odśwież""","W module ""PESEL"" pojawiają się losowe numery PESEL męskie"
+PESEL - Generowanie PESEL damskiego,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""PESEL"", wybierz opcję ""Damskie"", kliknij przycisk ""Odśwież""","W module ""PESEL"" pojawiają się losowe numery PESEL damskie"
+PESEL - Wprowadzanie prawidłowego roku,"Aplikacja otwarta w przeglądarce, ustawienia modułu PESEL widoczne","Wprowadź wartość ""1990"" w polu ""Rok"", kliknij przycisk ""Odśwież""","Wartość zostaje zaakceptowana, dane PESEL generowane prawidłowo"
+PESEL - Wprowadzanie nieprawidłowego roku,"Aplikacja otwarta w przeglądarce, ustawienia modułu PESEL widoczne","Wprowadź wartość ""3000"" w polu ""Rok"", kliknij przycisk ""Odśwież""",Pojawia się komunikat walidacyjny informujący o błędnej wartości
+"Scenariusze dla modułu ""Numer Dowodu""","Aplikacja otwarta w przeglądarce, ustawienia modułu PESEL widoczne","Wprowadź wartość ""3000"" w polu ""Rok"", kliknij przycisk ""Odśwież""",Pojawia się komunikat walidacyjny informujący o błędnej wartości
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+Numer Dowodu - Generowanie numerów dowodów,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Numer Dowodu""","W module ""Numer Dowodu"" pojawiają się losowe numery dowodów"
+"Scenariusze dla modułu ""SWIFT""",Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Numer Dowodu""","W module ""Numer Dowodu"" pojawiają się losowe numery dowodów"
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+SWIFT - Generowanie numerów SWIFT,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""SWIFT""","W module ""SWIFT"" pojawiają się losowe numery SWIFT"
+"Scenariusze dla modułu ""NIP""",Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""SWIFT""","W module ""SWIFT"" pojawiają się losowe numery SWIFT"
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+NIP - Generowanie numerów NIP,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""NIP""","W module ""NIP"" pojawiają się losowe numery NIP"
+"Scenariusze dla modułu ""REGON""",Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""NIP""","W module ""NIP"" pojawiają się losowe numery NIP"
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+REGON - Generowanie numerów REGON,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""REGON""","W module ""REGON"" pojawiają się losowe numery REGON"
+REGON - Generowanie REGON 14-znakowego,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""REGON"", wybierz opcję ""14-znakowy"", kliknij przycisk ""Odśwież""","W module ""REGON"" pojawiają się losowe numery REGON 14-znakowe"
+"Scenariusze dla modułu ""Księga Wieczysta""",Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""REGON"", wybierz opcję ""14-znakowy"", kliknij przycisk ""Odśwież""","W module ""REGON"" pojawiają się losowe numery REGON 14-znakowe"
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+Księga Wieczysta - Generowanie numerów ksiąg wieczystych,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Księga Wieczysta""","W module ""Księga Wieczysta"" pojawiają się losowe numery ksiąg wieczystych"
+"Scenariusze dla modułu ""IBAN""",Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Księga Wieczysta""","W module ""Księga Wieczysta"" pojawiają się losowe numery ksiąg wieczystych"
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+IBAN - Generowanie numerów IBAN,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""IBAN""","W module ""IBAN"" pojawiają się losowe numery IBAN"
+"Scenariusze dla modułu ""Nazwa Firmy""",Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""IBAN""","W module ""IBAN"" pojawiają się losowe numery IBAN"
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+Nazwa Firmy - Generowanie nazw firm,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Nazwa Firmy""","W module ""Nazwa Firmy"" pojawiają się losowe nazwy firm"
+Nazwa Firmy - Generowanie zabawnych nazw firm,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Nazwa Firmy"", zaznacz checkbox ""Zabawne nazwy"", kliknij przycisk ""Odśwież""","W module ""Nazwa Firmy"" pojawiają się losowe zabawne nazwy firm"
+"Scenariusze dla modułu ""Ulica""",Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Nazwa Firmy"", zaznacz checkbox ""Zabawne nazwy"", kliknij przycisk ""Odśwież""","W module ""Nazwa Firmy"" pojawiają się losowe zabawne nazwy firm"
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+Ulica - Generowanie nazw ulic,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Ulica""","W module ""Ulica"" pojawiają się losowe nazwy ulic"
+Ulica - Generowanie zabawnych nazw ulic,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Ulica"", zaznacz checkbox ""Zabawne nazwy"", kliknij przycisk ""Odśwież""","W module ""Ulica"" pojawiają się losowe zabawne nazwy ulic"
+"Scenariusze dla modułu ""Miasto""",Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Ulica"", zaznacz checkbox ""Zabawne nazwy"", kliknij przycisk ""Odśwież""","W module ""Ulica"" pojawiają się losowe zabawne nazwy ulic"
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+Miasto - Generowanie nazw miast,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Miasto""","W module ""Miasto"" pojawiają się losowe nazwy miast"
+"Scenariusze dla modułu ""Kod Pocztowy""",Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Miasto""","W module ""Miasto"" pojawiają się losowe nazwy miast"
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+Kod Pocztowy - Generowanie kodów pocztowych,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Kod Pocztowy""","W module ""Kod Pocztowy"" pojawiają się losowe kody pocztowe"
+"Scenariusze dla modułu ""Komentarz""",Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Kod Pocztowy""","W module ""Kod Pocztowy"" pojawiają się losowe kody pocztowe"
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+Komentarz - Generowanie komentarzy,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Komentarz""","W module ""Komentarz"" pojawiają się losowe komentarze"
+Komentarz - Generowanie komentarzy z 10 słowami,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Komentarz"", wprowadź wartość ""10"" w polu ""Liczba słów"", kliknij przycisk ""Odśwież""","W module ""Komentarz"" pojawiają się losowe komentarze składające się z 10 słów"
+Komentarz - Generowanie komentarzy z 50 znakami,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Komentarz"", wprowadź wartość ""50"" w polu ""Liczba znaków"", kliknij przycisk ""Odśwież""","W module ""Komentarz"" pojawiają się losowe komentarze składające się z 50 znaków"
+Komentarz - Generowanie komentarzy z 10 słowami i 50 znakami,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Komentarz"", wprowadź wartość ""10"" w polu ""Liczba słów"", wprowadź wartość ""50"" w polu ""Liczba znaków"", kliknij przycisk ""Odśwież""","W module ""Komentarz"" pojawiają się losowe komentarze składające się z 10 słów i 50 znaków"
+Komentarz - Wprowadzanie prawidłowej liczby słów,"Aplikacja otwarta w przeglądarce, ustawienia modułu Komentarz widoczne","Wprowadź wartość ""10"" w polu ""Liczba słów"", kliknij przycisk ""Odśwież""","Wartość zostaje zaakceptowana, komentarz generowany prawidłowo"
+Komentarz - Wprowadzanie nieprawidłowej liczby słów,"Aplikacja otwarta w przeglądarce, ustawienia modułu Komentarz widoczne","Wprowadź wartość ""-5"" w polu ""Liczba słów"", kliknij przycisk ""Odśwież""",Pojawia się komunikat walidacyjny informujący o błędnej wartości
+Komentarz - Wprowadzanie prawidłowej liczby znaków,"Aplikacja otwarta w przeglądarce, ustawienia modułu Komentarz widoczne","Wprowadź wartość ""50"" w polu ""Liczba znaków"", kliknij przycisk ""Odśwież""","Wartość zostaje zaakceptowana, komentarz generowany prawidłowo"
+Komentarz - Wprowadzanie nieprawidłowej liczby znaków,"Aplikacja otwarta w przeglądarce, ustawienia modułu Komentarz widoczne","Wprowadź wartość ""10000"" w polu ""Liczba znaków"", kliknij przycisk ""Odśwież""",Pojawia się komunikat walidacyjny informujący o błędnej wartości
+"Scenariusze dla modułu ""Komentarz Specjalny""","Aplikacja otwarta w przeglądarce, ustawienia modułu Komentarz widoczne","Wprowadź wartość ""10000"" w polu ""Liczba znaków"", kliknij przycisk ""Odśwież""",Pojawia się komunikat walidacyjny informujący o błędnej wartości
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+Komentarz Specjalny - Generowanie specjalnych komentarzy,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Odśwież"" w module ""Komentarz Specjalny""","W module ""Komentarz Specjalny"" pojawiają się specjalne komentarze"
+Komentarz Specjalny - Generowanie komentarzy specjalnych z SQL Injection,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Komentarz Specjalny"", wybierz opcję ""SQL Injection"", kliknij przycisk ""Odśwież""","W module ""Komentarz Specjalny"" pojawiają się komentarze zawierające przykłady SQL Injection"
+Komentarz Specjalny - Generowanie komentarzy specjalnych z diakrytykami,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Komentarz Specjalny"", wybierz opcję ""Znaki specjalne"", kliknij przycisk ""Odśwież""","W module ""Komentarz Specjalny"" pojawiają się komentarze zawierające znaki specjalne"
+"Scenariusze dla modułu ""Załączniki Testowe""",Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Ustawienia"" w module ""Komentarz Specjalny"", wybierz opcję ""Znaki specjalne"", kliknij przycisk ""Odśwież""","W module ""Komentarz Specjalny"" pojawiają się komentarze zawierające znaki specjalne"
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+Załączniki Testowe - Pobieranie pliku Excel,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Plik Excel"" w module ""Załączniki Testowe""",Plik Excel zostaje pobrany
+Załączniki Testowe - Pobieranie pliku PDF,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Plik PDF"" w module ""Załączniki Testowe""",Plik PDF zostaje pobrany
+Załączniki Testowe - Pobieranie pliku Word,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Plik Word"" w module ""Załączniki Testowe""",Plik Word zostaje pobrany
+Załączniki Testowe - Pobieranie pliku TXT,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Plik TXT"" w module ""Załączniki Testowe""",Plik TXT zostaje pobrany
+Załączniki Testowe - Pobieranie pliku JPG,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Plik JPG"" w module ""Załączniki Testowe""",Plik JPG zostaje pobrany
+Załączniki Testowe - Pobieranie pliku PNG,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Plik PNG"" w module ""Załączniki Testowe""",Plik PNG zostaje pobrany
+Scenariusze walidacyjne,Aplikacja otwarta w przeglądarce,"Kliknij przycisk ""Plik PNG"" w module ""Załączniki Testowe""",Plik PNG zostaje pobrany
+Nazwa scenariusza,Warunki wstępne,Krok do wykonania,Oczekiwany rezultat
+Walidacja - Pole PESEL - Prawidłowy rok,"Aplikacja otwarta w przeglądarce, ustawienia modułu PESEL widoczne","Wprowadź wartość ""1990"" w polu ""Rok"", kliknij przycisk ""Odśwież""","Wartość zostaje zaakceptowana, dane PESEL generowane prawidłowo"
+Walidacja - Pole PESEL - Nieprawidłowy rok,"Aplikacja otwarta w przeglądarce, ustawienia modułu PESEL widoczne","Wprowadź wartość ""2300"" w polu ""Rok"", kliknij przycisk ""Odśwież""",Pojawia się komunikat walidacyjny informujący o błędnej wartości
+"Walidacja - Pole ""Nazwa Firmy"" - Prawidłowa liczba słów","Aplikacja otwarta w przeglądarce, ustawienia modułu Nazwa Firmy widoczne","Wprowadź wartość ""5"" w polu ""Liczba słów"", kliknij przycisk ""Odśwież""","Wartość zostaje zaakceptowana, nazwy firm generowane prawidłowo"
+"Walidacja - Pole ""Nazwa Firmy"" - Nieprawidłowa liczba słów","Aplikacja otwarta w przeglądarce, ustawienia modułu Nazwa Firmy widoczne","Wprowadź wartość ""0"" w polu ""Liczba słów"", kliknij przycisk ""Odśwież""",Pojawia się komunikat walidacyjny informujący o błędnej wartości
+"Walidacja - Pole ""Komentarz"" - Prawidłowa liczba słów","Aplikacja otwarta w przeglądarce, ustawienia modułu Komentarz widoczne","Wprowadź wartość ""10"" w polu ""Liczba słów"", kliknij przycisk ""Odśwież""","Wartość zostaje zaakceptowana, komentarze generowane prawidłowo"
+"Walidacja - Pole ""Komentarz"" - Nieprawidłowa liczba słów","Aplikacja otwarta w przeglądarce, ustawienia modułu Komentarz widoczne","Wprowadź wartość ""-5"" w polu ""Liczba słów"", kliknij przycisk ""Odśwież""",Pojawia się komunikat walidacyjny informujący o błędnej wartości
+"Walidacja - Pole ""Komentarz"" - Nieprawidłowa liczba słów","Aplikacja otwarta w przeglądarce, ustawienia modułu Komentarz widoczne","Wprowadź wartość ""-5"" w polu ""Liczba słów"", kliknij przycisk ""Odśwież""",Pojawia się komunikat walidacyjny informujący o błędnej wartości

@@ -1,0 +1,261 @@
+/* Stylowanie dla całego ciała */
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode {
+    background-color: #2f2f2f;
+    color: #e0e0e0;
+}
+
+/* Stylowanie nagłówka */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+/* Stylowanie przełącznika motywu */
+#theme-toggle {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Stylowanie kontenera modułów */
+#modules {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+/* Stylowanie dla modułów */
+.module {
+    background-color: #ececec;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 250px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+body.dark-mode .module {
+    background-color: #444;
+    border-color: #555;
+}
+
+/* Stylowanie nagłówka modułu */
+.module-header {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+/* Stylowanie zawartości modułu */
+.module-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Stylowanie danych w module */
+.module-data {
+    flex-grow: 1;
+    cursor: pointer;
+    font-size: 1.2em; /* Zmiana wielkości czcionki danych w module */
+}
+
+/* Stylowanie przycisków w module */
+.module-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+/* Stylowanie pól tekstowych */
+input[type="text"],
+input[type="number"],
+textarea {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-mode input[type="text"],
+body.dark-mode input[type="number"],
+body.dark-mode textarea {
+    background-color: #d3d3d3;
+    color: #000000;
+}
+
+/* Stylowanie przycisków */
+button {
+    background-color: #3481c2;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px; /* Zmiana wielkości przycisków */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 0.9em;
+}
+
+button:hover {
+    background-color: #286e9c;
+}
+
+body.dark-mode button {
+    background-color: #555;
+    color: #e0e0e0;
+}
+
+body.dark-mode button:hover {
+    background-color: #666;
+}
+
+/* Stylowanie sekcji instrukcji */
+.instructions {
+    background-color: #cf102d;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    grid-column: span 4;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .instructions {
+    background-color: #444;
+    color: #e0e0e0;
+}
+
+/* Stylowanie kontenera ustawień */
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.settings-container input[type="radio"], 
+.settings-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Stylowanie etykiet w ustawieniach */
+.settings-container label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Stylowanie tytułów */
+h1 {
+    color: #3481c2;
+    margin-bottom: 0;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode h1 {
+    color: #e0e0e0;
+}
+
+/* Stylowanie wiadomości o skopiowaniu */
+.copy-message {
+    background-color: #3481c2;
+    color: #ffffff;
+    padding: 2px;
+    border-radius: 1px;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0.8em;
+}
+
+/* Stylowanie kontenera logów */
+.log-container {
+    width: 70%; /* Zmiana szerokości kontenera logów */
+    margin-top: 20px;
+}
+
+.log-container textarea {
+    width: 100%;
+    height: 200px; /* Zmiana wysokości pola tekstowego logów */
+    resize: none;
+}
+
+/* Stylowanie przycisków w module "Załączniki testowe" */
+.attachments-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* Stylowanie przełącznika tematu */
+body.dark-mode #theme-switch {
+    background-color: #7c7c7c;
+    color: #444;
+}
+
+#theme-switch:checked {
+    background: #ddd;
+}
+
+#theme-switch {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 40px; /* Zmiana wielkości przełącznika */
+    height: 20px;
+    background: #414040;
+    border-radius: 10px;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#theme-switch::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    transition: transform 0.3s ease;
+}
+
+#theme-switch:checked::before {
+    transform: translateX(20px);
+}
+
+#theme-switch:checked {
+    background: #444;
+}
+
+/* Stylowanie wiadomości walidacyjnych */
+.validation-message {
+    font-size: 0.9em; /* Zmiana wielkości czcionki wiadomości walidacyjnych */
+    color: red;
+    font-weight: bold;
+}

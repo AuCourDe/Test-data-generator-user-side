@@ -1,0 +1,103 @@
+Krótka Instrukcja Użytkownika dla Użytkowników Technicznych
+Wprowadzenie
+Aplikacja Generator Danych Testowych umożliwia generowanie różnych typów danych testowych, w tym imion, nazwisk, dat, numerów PESEL, numerów dowodów, kodów SWIFT, numerów NIP, numerów REGON, nazw firm, nazw ulic, nazw miast, kodów pocztowych, komentarzy i specjalnych komentarzy. Dodatkowo aplikacja umożliwia pobieranie plików testowych.
+
+Funkcje Globalne
+Zmiana motywu (jasny/ciemny):
+
+Zaznacz/odznacz checkbox "Tło" w prawym górnym rogu, aby przełączać między jasnym a ciemnym motywem.
+Generowanie logów:
+
+Zaznacz checkbox "Logi", aby wyświetlić sekcję logów, która pokazuje działania aplikacji.
+Kopiowanie danych:
+
+Przyciskiem "Kopiuj": Kliknij przycisk "Kopiuj" w odpowiednim module, aby skopiować wygenerowane dane do schowka.
+Przez kliknięcie w dane: Kliknij w wygenerowane dane bezpośrednio, aby je skopiować do schowka.
+Generowanie wielu wyników jednocześnie:
+
+Kliknij przycisk "Ustawienia" w odpowiednim module.
+Wybierz ilość wyników (10 lub 50) i kliknij przycisk "Odśwież", aby wygenerować odpowiednią ilość danych.
+Moduły
+Imię
+Generowanie losowych imion:
+Kliknij przycisk "Odśwież" w module "Imię".
+Opcje: "Damskie", "Męskie" (przycisk "Ustawienia").
+Nazwisko
+Generowanie losowych nazwisk:
+Kliknij "Odśwież" w module "Nazwisko".
+Opcje: "Damskie", "Męskie" (przycisk "Ustawienia").
+Data
+Generowanie losowych dat:
+Kliknij "Odśwież" w module "Data".
+Zmiana formatu daty i separatorów:
+Kliknij przycisk "Ustawienia".
+Wybierz format daty (np. "DD-MM-RRRR", "RRRR-MM-DD") oraz separator (np. "-", "/", ".").
+Kliknij "Odśwież".
+PESEL
+Generowanie losowych numerów PESEL:
+Kliknij "Odśwież" w module "PESEL".
+Opcje: "Męskie", "Damskie" (przycisk "Ustawienia").
+Generowanie numerów PESEL dla określonego roku:
+Kliknij przycisk "Ustawienia".
+Wprowadź rok, aby wygenerować PESEL dla danej daty urodzenia.
+Kopiowanie: Kliknij "Kopiuj".
+Numer Dowodu
+Generowanie losowych numerów dowodów:
+Kliknij "Odśwież" w module "Numer Dowodu".
+Kopiowanie: Kliknij "Kopiuj".
+SWIFT
+Generowanie losowych numerów SWIFT:
+Kliknij "Odśwież" w module "SWIFT".
+Kopiowanie: Kliknij "Kopiuj".
+NIP
+Generowanie losowych numerów NIP:
+Kliknij "Odśwież" w module "NIP".
+Kopiowanie: Kliknij "Kopiuj".
+REGON
+Generowanie losowych numerów REGON:
+Kliknij "Odśwież" w module "REGON".
+Domyślnie generowany jest 9-cyfrowy REGON.
+Opcje: "9-znakowy", "14-znakowy" (przycisk "Ustawienia").
+Kopiowanie: Kliknij "Kopiuj".
+Księga Wieczysta
+Generowanie losowych numerów ksiąg wieczystych:
+Kliknij "Odśwież" w module "Księga Wieczysta".
+Kopiowanie: Kliknij "Kopiuj".
+IBAN
+Generowanie losowych numerów IBAN:
+Kliknij "Odśwież" w module "IBAN".
+Kopiowanie: Kliknij "Kopiuj".
+Nazwa Firmy
+Generowanie losowych nazw firm:
+Kliknij "Odśwież" w module "Nazwa Firmy".
+Opcje: "Zabawne nazwy" (przycisk "Ustawienia").
+Kopiowanie: Kliknij "Kopiuj".
+Ulica
+Generowanie losowych nazw ulic:
+Kliknij "Odśwież" w module "Ulica".
+Opcje: "Zabawne nazwy" (przycisk "Ustawienia").
+Kopiowanie: Kliknij "Kopiuj".
+Miasto
+Generowanie losowych nazw miast:
+Kliknij "Odśwież" w module "Miasto".
+Kopiowanie: Kliknij "Kopiuj".
+Kod Pocztowy
+Generowanie losowych kodów pocztowych:
+Kliknij "Odśwież" w module "Kod Pocztowy".
+Kopiowanie: Kliknij "Kopiuj".
+Komentarz
+Generowanie losowych komentarzy:
+Kliknij "Odśwież" w module "Komentarz".
+Opcje: Wprowadź liczbę słów albo liczbę znaków (przycisk "Ustawienia").
+Kopiowanie: Kliknij "Kopiuj".
+Komentarz Specjalny
+Generowanie specjalnych komentarzy:
+Kliknij "Odśwież" w module "Komentarz Specjalny".
+Domyślnie generowane są losowe polskie znaki diakrytyczne.
+Opcje: "SQL Injection", "Znaki specjalne" (przycisk "Ustawienia" - francuskie, niemieckie i inne popularne znaki diakrytyczne).
+Kopiowanie: Kliknij "Kopiuj".
+Załączniki Testowe
+Pobieranie plików testowych:
+Kliknij odpowiedni przycisk w module "Załączniki Testowe" ("Plik Excel", "Plik PDF", "Plik Word", "Plik TXT", "Plik JPG", "Plik PNG").
+Podsumowanie
+Aplikacja jest wszechstronnym narzędziem do generowania różnorodnych danych testowych oraz plików testowych. Możliwości konfiguracji i generowania wielu wyników jednocześnie sprawiają, że jest to narzędzie przydatne dla testerów o różnym poziomie zaawansowania technicznego.
