@@ -119,7 +119,52 @@ Podsumowanie
 Aplikacja Generator Danych Testowych jest łatwa w użyciu i umożliwia szybkie generowanie różnorodnych danych testowych. Dzięki niej możesz wygenerować dane potrzebne do testów, skopiować je do schowka lub pobrać pliki testowe w różnych formatach.
 
 
+ // Funkcja generująca numery dowodów osobistych
+    // Funkcja generująca losową liczbę z zakresu min-max dla dowodu
+function generateRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
+// Funkcja obliczająca cyfrę kontrolną dla dowodu
+function calculateControlDigit(series, number) {
+    const weights = [7, 3, 1, 7, 3, 1, 7, 3];
+    const letterValues = {
+        'A': 10, 'B': 11, 'C': 12, 'D': 13, 'E': 14, 'F': 15, 'G': 16,
+        'H': 17, 'I': 18, 'J': 19, 'K': 20, 'L': 21, 'M': 22, 'N': 23,
+        'O': 24, 'P': 25, 'Q': 26, 'R': 27, 'S': 28, 'T': 29, 'U': 30,
+        'V': 31, 'W': 32, 'X': 33, 'Y': 34, 'Z': 35
+    };
+
+    const id = `${series}${number}`;
+    let sum = 0;
+
+    for (let i = 0; i < id.length; i++) {
+        let value;
+        if (i < 3) {
+            value = letterValues[id[i]];
+        } else {
+            value = parseInt(id[i], 10);
+        }
+        sum += value * weights[i];
+    }
+
+    return sum % 10;
+}
+
+// Funkcja generująca numery dowodów osobistych
+function generateID(quantity = 1) {
+    const result = [];
+    const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+    for (let i = 0; i < quantity; i++) {
+        const series = `${letters.charAt(generateRandomNumber(0, 25))}${letters.charAt(generateRandomNumber(0, 25))}${letters.charAt(generateRandomNumber(0, 25))}`;
+        const number = String(generateRandomNumber(10000, 99999)).padStart(5, '0');
+        const controlDigit = calculateControlDigit(series, number);
+        result.push(`${series}${controlDigit}${number}`);
+    }
+
+    return result.join(', ');
+}
 
 
 
